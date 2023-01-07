@@ -22,7 +22,7 @@
     <section class="hero">
       <div class="hero__image-container">
         <img src="../assets/img/Photo.jpg" class="hero__image" alt="Alicja Begović's photo">
-        <span class="hero__hello">Hey there!👋</span>
+        <span class="hero__bubble"><span class="hero__hello">Hey there!👋</span></span>
       </div>
 
       <div class="hero__description">
@@ -41,100 +41,102 @@
     </section>
     <section class="skills" id="skills">
       <h2 class="skills__header">My skills</h2>
-      <article class="skills-section">
-        <span class="skills-list__emoji">
-          <article class="skills-section">
-            <span class="skills-list__emoji">🦾</span>
-            <h3 class="skills-section__header">Working knowledge</h3>
-            <ul class="skills-list">
-              <li class="skills-list__item ">
-                Semantic HTML5
-              </li>
-              <li class="skills-list__item">
-                Flexbox
-              </li>
-              <li class="skills-list__item">
-                Markdown
-              </li>
-              <li class="skills-list__item">
-                JS: local storage
-              </li>
-              <li class="skills-list__item">
-                Figma
-              </li>
-              <li class="skills-list__item">
-                CSS Grid
-              </li>
-              <li class="skills-list__item">
-                JS: DOM manipulation
-              </li>
-              <li class="skills-list__item">
-                SASS
-              </li>
-              <li class="skills-list__item">
-                Forms
-              </li>
-            </ul>
-          </article>
-        </span>
+      <div class="skills__columns">
+        <article class="skills-section">
+          <span class="skills-list__emoji">
+            <article class="skills-section">
+              <span class="skills-list__emoji">🦾</span>
+              <h3 class="skills-section__header">Working knowledge</h3>
+              <ul class="skills-list">
+                <li class="skills-list__item ">
+                  Semantic HTML5
+                </li>
+                <li class="skills-list__item">
+                  Flexbox
+                </li>
+                <li class="skills-list__item">
+                  Markdown
+                </li>
+                <li class="skills-list__item">
+                  JS: local storage
+                </li>
+                <li class="skills-list__item">
+                  Figma
+                </li>
+                <li class="skills-list__item">
+                  CSS Grid
+                </li>
+                <li class="skills-list__item">
+                  JS: DOM manipulation
+                </li>
+                <li class="skills-list__item">
+                  SASS
+                </li>
+                <li class="skills-list__item">
+                  Forms
+                </li>
+              </ul>
+            </article>
+          </span>
 
-      </article>
-      <article class="skills-section">
-        <span class="skills-list__emoji">🤔</span>
-        <h3 class="skills-section__header">Know something about</h3>
-        <ul class="skills-list skills-list--blue">
-          <li class="skills-list__item">
-            JavaScript ES6 + features
-          </li>
-          <li class="skills-list__item">
-            CSS Animation
-          </li>
-          <li class="skills-list__item">
-            Working with API
-          </li>
-          <li class="skills-list__item">
-            NPM Scripts
-          </li>
-          <li class="skills-list__item">
-            Progressive web apps
-          </li>
-          <li class="skills-list__item">
-            Git
-          </li>
-          <li class="skills-list__item">
-            Accessibility
-          </li>
+        </article>
+        <article class="skills-section">
+          <span class="skills-list__emoji">🤔</span>
+          <h3 class="skills-section__header">Know something about</h3>
+          <ul class="skills-list skills-list--blue">
+            <li class="skills-list__item">
+              JavaScript ES6 + features
+            </li>
+            <li class="skills-list__item">
+              CSS Animation
+            </li>
+            <li class="skills-list__item">
+              Working with API
+            </li>
+            <li class="skills-list__item">
+              NPM Scripts
+            </li>
+            <li class="skills-list__item">
+              Progressive web apps
+            </li>
+            <li class="skills-list__item">
+              Git
+            </li>
+            <li class="skills-list__item">
+              Accessibility
+            </li>
 
-        </ul>
-      </article>
-      <article class="skills-section">
-        <span class="skills-list__emoji">📖</span>
-        <h3 class="skills-section__header">Want to learn</h3>
-        <ul class="skills-list skills-list--bullet">
-          <li class="skills-list__item">
-            React JS
-          </li>
-          <li class="skills-list__item">
-            Node JS
-          </li>
-          <li class="skills-list__item">
-            Electron
-          </li>
-          <li class="skills-list__item">
-            Server side rendering
-          </li>
-          <li class="skills-list__item">
-            Typescript
-          </li>
-          <li class="skills-list__item">
-            Gatsby
-          </li>
-          <li class="skills-list__item">
-            Websockets
-          </li>
+          </ul>
+        </article>
+        <article class="skills-section">
+          <span class="skills-list__emoji">📖</span>
+          <h3 class="skills-section__header">Want to learn</h3>
+          <ul class="skills-list skills-list--bullet">
+            <li class="skills-list__item">
+              React JS
+            </li>
+            <li class="skills-list__item">
+              Node JS
+            </li>
+            <li class="skills-list__item">
+              Electron
+            </li>
+            <li class="skills-list__item">
+              Server side rendering
+            </li>
+            <li class="skills-list__item">
+              Typescript
+            </li>
+            <li class="skills-list__item">
+              Gatsby
+            </li>
+            <li class="skills-list__item">
+              Websockets
+            </li>
 
-        </ul>
-      </article>
+          </ul>
+        </article>
+      </div>
     </section>
     <section class="projects">
 
@@ -165,11 +167,62 @@
             </p>
             <p class="project__grid">
               <span class="project__label">github:</span>
-              <span>&lt;<a class="project__link href="#" title="podlaski git - code">source_code</a>&gt;</span>
+              <span>&lt;<a class="project__link" href="#" title="podlaski git - code">source_code</a>&gt;</span>
             </p>
           </div>
+        </article>
+        <article class="project">
+          <div class="project__window">
+            <span class="project__circle"></span>
+            <span class="project__circle"></span>
+            <span class="project__circle"></span>
+          </div>
+          <div class="project__content">
+            <img src="../assets/img/github-icon.svg" alt="">
+            <h3 class="project__tittle project__grid">
+              <span class="project__label">project:</span> <span>podlaski git</span>
+            </h3>
+            <p class="project__grid">
+              <span class="project__label">description:</span>
+              <span>podlaskie aliasy dla gitowych komend</span>
+            </p>
+            <p class="project__grid">
+              <span class="project__label">demo:</span>
+              <span>&lt;<a class="project__link" href="#" title="podlaski git - demo">see_here</a>&gt;</span>
+            </p>
+            <p class="project__grid">
+              <span class="project__label">github:</span>
+              <span>&lt;<a class="project__link" href="#" title="podlaski git - code">source_code</a>&gt;</span>
+            </p>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project__window">
+            <span class="project__circle"></span>
+            <span class="project__circle"></span>
+            <span class="project__circle"></span>
+          </div>
+          <div class="project__content">
+            <img src="../assets/img/github-icon.svg" alt="">
+            <h3 class="project__tittle project__grid">
+              <span class="project__label">project:</span> <span>podlaski git</span>
+            </h3>
+            <p class="project__grid">
+              <span class="project__label">description:</span>
+              <span>podlaskie aliasy dla gitowych komend</span>
+            </p>
+            <p class="project__grid">
+              <span class="project__label">demo:</span>
+              <span>&lt;<a class="project__link" href="#" title="podlaski git - demo">see_here</a>&gt;</span>
+            </p>
+            <p class="project__grid">
+              <span class="project__label">github:</span>
+              <span>&lt;<a class="project__link" href="#" title="podlaski git - code">source_code</a>&gt;</span>
+            </p>
+          </div>
+        </article>
       </div>
-      </article>
+
 
     </section>
     <section class="contact" id="contact">

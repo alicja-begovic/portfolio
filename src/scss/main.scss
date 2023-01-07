@@ -1,0 +1,28 @@
+@import "~normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+@import "_variables";
+@import "modules/hero.scss";
+@import "modules/skills.scss";
+@import "modules/projects.scss";
+@import "modules/contact.scss";
+@import "modules/social.scss";
+
+
+
+
+html {
+  box-sizing:border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+font-family: Nunito;
+color: $text;
+}

@@ -1,0 +1,35 @@
+.contact {
+  background: $lighterBlue;
+  padding: 64px 16px 88px;
+  &__description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  &__links {
+    text-align: center;
+  }
+
+  &__header {
+    color: $textDark;
+    text-align: center;
+    line-height: 48px;
+    font-size: 36px;
+  }
+
+  &__mail {
+    border-radius: 64px;
+    color: #fff;
+    background-color: $lightBlue;
+    display: inline-block;
+    padding: 4px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    
+  }
+}

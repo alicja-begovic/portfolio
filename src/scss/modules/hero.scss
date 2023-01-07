@@ -7,6 +7,7 @@
 
   @media (min-width: $desktop) {
     max-width: 100%;
+    padding-bottom: 176px;
   }
 
   &__bubble {
@@ -24,6 +25,7 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
+      margin-bottom: 68px;
     }
   }
 
@@ -73,6 +75,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    @media (min-width: $desktop) {
+      margin-bottom: 48px;
+    }
   }
 
   &__header {
@@ -97,16 +102,6 @@
       font-weight: bold;
       font-size: 32px;
       position: relative;
-      &:after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 15%;
-        display: block;
-        width: 17.42px;
-        height: 22.66px;
-        background: url("../assets/img/decoration.jpg");
-      }
     }
   }
 

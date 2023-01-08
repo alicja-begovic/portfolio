@@ -54,5 +54,7 @@ i na końcu muszę wrzucić ikonkę githuba do folderu public i do img
 
 z target="_blank" trzeba uważać bo można zostać ofiarą hackerów, trzeba jeszcze dodać własność, która będzie nas zabezpieczać przezd atakami hackerów - rel= noopener;
 trzeba go dodać do każdej strony którą podajemy - to w żaden sposób nie zmienia htmla a my jesteśmy dodatkowo zabezpieczeni :)
+
+uzupełnić sobie w każdym projekcie readme.md
   
 */

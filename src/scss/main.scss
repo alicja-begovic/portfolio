@@ -8,12 +8,14 @@
 @import "modules/projects.scss";
 @import "modules/contact.scss";
 @import "modules/social.scss";
+@import "modules/hand.scss";
 
 
 
 
 html {
   box-sizing:border-box;
+  scroll-behavior: smooth; //to pozwala nam płynnie scrollować stronę, kiedy sobie klikniemy to automatycznie nam się płynnie przewija
 }
 
 *,

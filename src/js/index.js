@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("Hi, I am Alicja - nice to meet you 🚀"); //tutaj warto dodawać coś takiego, ktoś kto przegląda konsole może mu się to spodobać
 
 fetch(
   "https://api.github.com/users/alicjabegovic/repos?sort=created&direction=asc"
@@ -29,11 +29,11 @@ fetch(
         </p>
         <p class="project__grid">
           <span class="project__label">demo:</span>
-          <span>&lt;<a class="project__link" href="${homepage}" title="${name}- demo">see_here</a>&gt;</span>
+          <span>&lt;<a target="_blank" class="project__link" href="${homepage}" title="${name}- demo">see_here</a>&gt;</span>
         </p>
         <p class="project__grid">
           <span class="project__label">github:</span>
-          <span>&lt;<a class="project__link" href="${html_url}" title="${name} - code">source_code</a>&gt;</span>
+          <span>&lt;<a target="_blank" class="project__link" href="${html_url}" title="${name} - code">source_code</a>&gt;</span>
         </p>
       </div>
     </article>`;
@@ -51,5 +51,8 @@ fetch(
 jak API będzie mi działało to ja wtedy w HTML-u muszę usunąć dwa pozostałe projekty wpisane na sztywno i zostawić tylko jeden bo API będzie mi automatycznie uzupełniał wszystkie projekty które mam na githubie 
 
 i na końcu muszę wrzucić ikonkę githuba do folderu public i do img
+
+z target="_blank" trzeba uważać bo można zostać ofiarą hackerów, trzeba jeszcze dodać własność, która będzie nas zabezpieczać przezd atakami hackerów - rel= noopener;
+trzeba go dodać do każdej strony którą podajemy - to w żaden sposób nie zmienia htmla a my jesteśmy dodatkowo zabezpieczeni :)
   
 */

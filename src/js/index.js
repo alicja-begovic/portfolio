@@ -3,7 +3,7 @@ import "../scss/main.scss";
 console.log("Hi, I am Alicja - nice to meet you 🚀"); //tutaj warto dodawać coś takiego, ktoś kto przegląda konsole może mu się to spodobać
 
 fetch(
-  "https://api.github.com/users/alicjabegovic/repos?sort=created&direction=asc"
+  "https://api.github.com/users/maciekwtf/repos?sort=created&direction=asc" //mój błąd polegał na tym że wszystkie moje projekty są prywatne, dlatego nie mogłam nic pobrać i miałam z tym problem; poszukać jak
 )
   .then((res) => res.json())
   .then((res) => {
@@ -56,5 +56,9 @@ z target="_blank" trzeba uważać bo można zostać ofiarą hackerów, trzeba je
 trzeba go dodać do każdej strony którą podajemy - to w żaden sposób nie zmienia htmla a my jesteśmy dodatkowo zabezpieczeni :)
 
 uzupełnić sobie w każdym projekcie readme.md
+
+jeśli damy na githubie customize your pin wtedy otworzy nam się tabela ze wszystkimi projektami i możemy przypiąć te projekty, które chcemy
+
+zapisać
   
 */

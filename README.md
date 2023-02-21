@@ -1,1 +1,1 @@
-![cover](https://alicjabegovic.github.io/portfolio.png);
+![screenshot](portfolio.png);

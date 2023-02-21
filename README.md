@@ -1,1 +1,1 @@
-![alt text](https://github.com/alicja-begovic/portfolio/blob/master/portfolio.png?raw=true);
+![My Image](./src/assets/img/portfolio.png)

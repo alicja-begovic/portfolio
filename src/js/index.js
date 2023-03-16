@@ -1,10 +1,10 @@
 import "../scss/main.scss";
 
-console.log("Hi, I am Alicja - nice to meet you 🚀"); //tutaj warto dodawać coś takiego, ktoś kto przegląda konsole może mu się to spodobać
+console.log("Hi, I am Alicja - nice to meet you 🚀");
 
 fetch(
-  "https://api.github.com/users/maciekwtf/repos?sort=created&direction=asc" //mój błąd polegał na tym że wszystkie moje projekty są prywatne, dlatego nie mogłam nic pobrać i miałam z tym problem; poszukać jak
-)
+  "https://api.github.com/users/alicja-begovic/repos?sort=created&direction=asc")
+
   .then((res) => res.json())
   .then((res) => {
     const container = document.querySelector(".projects-grid--js");
@@ -46,19 +46,3 @@ fetch(
 
   .catch((e) => console.log(e));
 
-/* 
-
-jak API będzie mi działało to ja wtedy w HTML-u muszę usunąć dwa pozostałe projekty wpisane na sztywno i zostawić tylko jeden bo API będzie mi automatycznie uzupełniał wszystkie projekty które mam na githubie 
-
-i na końcu muszę wrzucić ikonkę githuba do folderu public i do img
-
-z target="_blank" trzeba uważać bo można zostać ofiarą hackerów, trzeba jeszcze dodać własność, która będzie nas zabezpieczać przezd atakami hackerów - rel= noopener;
-trzeba go dodać do każdej strony którą podajemy - to w żaden sposób nie zmienia htmla a my jesteśmy dodatkowo zabezpieczeni :)
-
-uzupełnić sobie w każdym projekcie readme.md
-
-jeśli damy na githubie customize your pin wtedy otworzy nam się tabela ze wszystkimi projektami i możemy przypiąć te projekty, które chcemy
-
-zapisać
-  
-*/

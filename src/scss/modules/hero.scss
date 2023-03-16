@@ -65,10 +65,7 @@
       height: 178px;
       border: 24px solid #f6f9fd;
     }
-    /* gdybym chciała tutaj zaimportować samo zdjęcie bez tej obwódki to wtedy muszę wpisać:
-        box-sizing: content-box
-        border: 16px solid #F6F9FD
-        */
+    
   }
   &__image-container {
     display: flex;
@@ -125,6 +122,6 @@
 
   &__special {
     color: $blue;
-    white-space: nowrap; // białe znaki będą się trzymać razem, kiedy mamy 2-3 słowa i nie chcemy żeby one nam przeskakiwały to możemy skorzystać z tego, ale nie korzysta się na całe zdania, z tego względu że wtedy ustawia nam wszystko w jednej linijce
+    white-space: nowrap;
   }
 }
